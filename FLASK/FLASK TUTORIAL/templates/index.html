@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <title>ABOUT US!</title>
+<div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">GOEDUHUB!</h4>
+  
+    <p>We provide comprehensive training in Artificial Intelligence(AI), Machine Learning(ML), Python Programming Information Security, BIG DATA-HADOOP, Cloud Computing, Salesforce, Embedded Systems & Robotics, Mobile Apps Development, AUTOCAD, MATLAB, Programming (Microsoft .NET, PHP, Java, C, C++), Networks & Database. </p>
+
+  <hr>
+  <p class="mb-0">~ Jaipur</p>
+</div>
+    </head>
+        
+  <body>
+    <form action='/' method='post'>   
+	 <label for="title">TTILE:</label><br>
+     <input type="text" id="fname" name="title"><br>
+     <label for="content">CONTENT:</label><br>
+     <input type="text" id="lname" name="content">
+	 <input type="submit" value="Submit">
+	</form>	
+	{% for i in show%}
+	  
+	  <tr>
+		  <td>{{loop.index}}</td> 
+		  <td>{{i.content}}</td>
+		  <td>{{i.title}}</td>
+		  <td>{{i.date_created}}</td>
+		  
+		  <td><button><a href="/delete/{{i.sno}}" type="button"  class="btn btn-dark">DELETE</a></button></td>
+		  <td><button><a href="/update/{{i.sno}}" type="button"  class="btn btn-dark">UPDATE</a></button></td>
+		  
+		  <br>
+	  </tr>
+	  
+	{% endfor %}
+
+    
+    </body>
+</html>

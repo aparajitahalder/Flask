@@ -1,0 +1,11 @@
+OOPS
+
+
+Class - a template of attributes and functions
+Objects - Instance of class
+(Example of mobile)
+
+Oops follow imperative paradigm, 
+     which is it follows a series of instructions
+
+

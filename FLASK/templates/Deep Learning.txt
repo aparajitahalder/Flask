@@ -1,0 +1,6 @@
+Deep learning is the technique through which we mimic the human brain.
+Scientists/Researchers invented neural network so that they can learn the exact way human brains do
+The first neural network was perceptron, but was inefficient
+Then Jeoffry Hinton learned invented back propagation
+
+

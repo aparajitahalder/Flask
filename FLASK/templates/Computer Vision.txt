@@ -1,0 +1,7 @@
+1. CONVOLUTIONAL CLASSIFIER ---> Conv Base (extract featue) ---> Dense Head (Classify)
+
+Base - primarily of layers forming conv layers but include otehrs too
+Dense head - Primarily of dense layers, but also include other layers like dropout
+
+
+
